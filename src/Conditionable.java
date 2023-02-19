@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface Conditionable {
+public interface Conditionable {
+    void utilityService();
+    void apartmentFee();
+    void feeOfNumber();
 }
