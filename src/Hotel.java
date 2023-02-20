@@ -32,7 +32,7 @@ public class Hotel implements Conditionable{
 
     @Override
     public void feeOfNumber() {
-        System.out.println("Номерде 2 адам жашайт."+"\nНомердин толому: "+feeOfNumber);
+        System.out.println("Номерде"+ person.length+" адам жашайт."+"\nНомердин толому: "+feeOfNumber);
     }
 
     @Override

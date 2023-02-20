@@ -42,9 +42,8 @@ public class House  implements Conditionable {
 
     @Override
     public void utilityService() {
-        int person = 5;
-        int total = (person*feeOfTrash)+feeOfElectrocity+feeOfWater;
-        System.out.println("Уйдо "+person+" адам жашайт \nЖалпы комуналдык чыгымы: "+total);
+        int total = (person.length*feeOfTrash)+feeOfElectrocity+feeOfWater;
+        System.out.println("Уйдо "+person.length+" адам жашайт \nЖалпы комуналдык чыгымы: "+total);
     }
 
     @Override
