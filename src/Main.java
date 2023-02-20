@@ -15,28 +15,22 @@ public class Main {
         House house = new House(40,1200,400,family1);
         System.out.println(house);
         house.utilityService();
-        Hotel hotel =new Hotel(4000);
+        Person[] family3 = {person9,person10};
         Person[] family2 = {person6,person7,person8};
         Appartment appartment = new Appartment(4000,50,300,200,family2);
         System.out.println(appartment);
         appartment.apartmentFee();
         appartment.utilityService();
+        Hotel hotel =new Hotel(4000,family3);
+        System.out.println(hotel);
+        hotel.feeOfNumber();
 
 
 
 
 
 
-        Person[] family3 = {person9,person10};
-        Hotel[] hotels = {hotel};
-        System.out.println("--------------------------------");
-        for (Hotel e:hotels) {
-            System.out.println(e);
-            e.feeOfNumber();
-        }
-        for (Person f:family3) {
-            System.out.println("Full name: "+f.getFullName()+"\nAge: "+f.getAge()+"\nGender: "+f.getGender());
-        }
+
 
 
 

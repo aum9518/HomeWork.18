@@ -1,11 +1,15 @@
+import java.util.Arrays;
+
 public class Hotel implements Conditionable{
     private int feeOfNumber;
+    private Person[] person;
 
     public Hotel() {
     }
 
-    public Hotel(int feeOfNumber) {
+    public Hotel(int feeOfNumber,Person[] person) {
         this.feeOfNumber = feeOfNumber;
+        this.person=person;
     }
 
     public int getFeeOfNumber() {
@@ -35,6 +39,7 @@ public class Hotel implements Conditionable{
     public String toString() {
         return "Hotel{" +
                 "feeOfNumber=" + feeOfNumber +
+                ", person=" + Arrays.toString(person) +
                 '}';
     }
 }
