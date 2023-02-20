@@ -1,15 +1,19 @@
+import java.util.Arrays;
+
 public class House  implements Conditionable {
     private int feeOfTrash;
     private int feeOfElectrocity;
     private int feeOfWater;
+    private Person[] person;
 
     public House() {
     }
 
-    public House(int feeOfTrash, int feeOfElectrocity, int feeOfWater) {
+    public House(int feeOfTrash, int feeOfElectrocity, int feeOfWater,Person[] person) {
         this.feeOfTrash = feeOfTrash;
         this.feeOfElectrocity = feeOfElectrocity;
         this.feeOfWater = feeOfWater;
+        this.person = person;
     }
 
     public int getFeeOfTrash() {
@@ -59,6 +63,7 @@ public class House  implements Conditionable {
                 "feeOfTrash=" + feeOfTrash +
                 ", feeOfElectrocity=" + feeOfElectrocity +
                 ", feeOfWater=" + feeOfWater +
+                ", person=" + Arrays.toString(person) +
                 '}';
     }
 }

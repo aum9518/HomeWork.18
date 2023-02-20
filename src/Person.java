@@ -36,4 +36,12 @@ public class Person {
         this.gender = gender;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "fullName='" + fullName + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
 }

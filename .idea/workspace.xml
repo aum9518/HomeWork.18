@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="811e2b3d-7a8d-4daa-a14d-acb706e48e22" name="Changes" comment="">
+    <list default="true" id="811e2b3d-7a8d-4daa-a14d-acb706e48e22" name="Changes" comment="add HomeWork18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Appartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Appartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conditionable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conditionable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
@@ -67,6 +65,18 @@
       <option name="presentableId" value="Default" />
       <updated>1676822583212</updated>
     </task>
+    <task id="LOCAL-00001" summary="add HomeWork18">
+      <created>1676827696311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676827696311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add HomeWork18" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HomeWork18" />
   </component>
 </project>
